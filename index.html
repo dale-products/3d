@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="henry oduniyi">
+    <link rel="stylesheet" href="css/index.css">
+    <title>rck ppr srs game</title>
+</head>
+<body>
+    <main>
+        <div class="meessage_and_score_displayer_container">
+            <div class="message" id="message">
+                Hello
+            </div>   
+            <div class="score" id="score">
+                <div class="your_score"id="your_score">
+                    0
+                </div>
+                <div>:</div>
+                <div class="computer_score" id="computer_score">
+                    0
+                </div>
+            </div>   
+        </div>
+        <section>
+            <div class="interact_container">
+
+                <div class="rock_container">
+                    <img src="images/rock.png" class="rock_image" id="rock_image">
+                </div>
+                <div class="paper_container">
+                    <img src="images/paper.png" class="paper_image" id="paper_image">
+                </div>
+                <div class="scissors_container">
+                    <img src="images/scissors.png" class="scissors_image" id="scissors_image">
+                </div>
+                <div class="rock_container_2">
+                    <input name="all" class="rock_input" id="rock_input" type="radio">
+                </div>
+                <div class="paper_container_2">
+                    <input name="all" class="paper_input" id="paper_input" type="radio">
+                </div>
+                <div class="scissors_container_2">
+                    <input name="all" class="scissors_input" id="scissors_input" type="radio">
+                </div>
+            </div>
+            <div class="button_container">
+                <button class="submit" id="submit">submit</button>
+                <button class="reset" id="reset">reset</button>
+            </div>
+            <div class="random_container">
+                <input name="all" class="paper_input" id="random_input" type="radio" checked> random
+            </div>
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
